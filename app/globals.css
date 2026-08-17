@@ -28,3 +28,8 @@ button { cursor: pointer; }
   .provider-card { padding-left: 12px; padding-right: 12px; }
   .provider-card-header { align-items: flex-start; flex-wrap: wrap; }
 }
+
+.save-button { flex: 0 0 auto; height: 46px; padding: 0 15px; color: #fff; background: #4c9d89; border: 0; font-size: 10px; font-weight: 700; }
+.save-button:hover { background: #3c8876; }
+.save-error { color: #bd685b; font-size: 10px; margin: 12px 0 0; }
+@media (max-width: 460px) { .save-button { height: 38px; } }
