@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss/index.css";
 @import "./template.css";
 
 :root { --ink: #16263b; --muted: #718096; --line: #dfe7ed; --paper: #f5f8fa; --mint: #b9f1df; --mint-deep: #4cb998; --blue: #436985; }
